@@ -24,5 +24,6 @@ int main() {
 	printf("Hello world!\n");
 	subProc(3,5);
 	subInc(9);
+	printf("Bye world!\n");
 	return 0;
 }
