@@ -7,6 +7,7 @@
 //============================================================================
 
 #include <iostream>
+#include "calc.h"
 using namespace std;
 
 void subProc(int a, int b)
@@ -17,6 +18,7 @@ void subProc(int a, int b)
 
 int main() {
 	printf("Hello world!\n");
-	subProc(3,5);
+	printf("a+b=%d\n", subProcAdd(3,5));
+	printf("a-b=%d\n", subProcAdd(8,3));
 	return 0;
 }

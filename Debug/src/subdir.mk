@@ -4,13 +4,16 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../src/PlayMore.cpp 
+../src/PlayMore.cpp \
+../src/calc.cpp 
 
 OBJS += \
-./src/PlayMore.o 
+./src/PlayMore.o \
+./src/calc.o 
 
 CPP_DEPS += \
-./src/PlayMore.d 
+./src/PlayMore.d \
+./src/calc.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
